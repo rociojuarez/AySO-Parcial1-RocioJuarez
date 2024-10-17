@@ -1,0 +1,6 @@
+
+Total de Memoria RAM:
+MemTotal:       20260040 kB
+
+Fabricante del Chasis:
+	Manufacturer: LENOVO

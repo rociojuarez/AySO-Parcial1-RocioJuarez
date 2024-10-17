@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "Punto B: Se muestra la estructura de discos con lsblk:"
 sudo lsblk
+
+echo "ATENCION se trabajara con un pendrive en el directorio /dev/sda"
 DISK="/dev/sda"
 
 echo "Desmontando las particiones del pendrive..."
@@ -35,12 +37,9 @@ p
 +2G
 n
 e
-4
 
 
 n
-
-
 
 
 w

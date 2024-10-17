@@ -1,0 +1,4 @@
+
+Mi IP pública es: 2800:810:5d0:4bd:363e:eb46:5e9f:e107
+Mi usuario es: rocioj
+El hash de mi usuario es: rocioj:$y$j9T$vECCqPUo1eh8oqwXgffw2/$H.ke/fY4.iBB6FDJ3kUfjTIYP9vetvqU3/8DHScMgD7:19992:0:99999:7:::
