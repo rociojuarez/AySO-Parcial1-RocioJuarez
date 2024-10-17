@@ -1,0 +1,17 @@
+
+programadores en la carpeta alumno_1
+programadores en la carpeta alumno_2
+programadores en la carpeta alumno_3
+programadores en la carpeta profesores
+tester en la carpeta alumno_1
+tester en la carpeta alumno_2
+tester en la carpeta alumno_3
+tester en la carpeta profesores
+analistas en la carpeta alumno_1
+analistas en la carpeta alumno_2
+analistas en la carpeta alumno_3
+analistas en la carpeta profesores
+disenadores en la carpeta alumno_1
+disenadores en la carpeta alumno_2
+disenadores en la carpeta alumno_3
+disenadores en la carpeta profesores

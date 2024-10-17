@@ -1,0 +1,590 @@
+sudo testdisk
+sudo apt update
+sudo apt dist-upgrade
+sudo apt install xfce4-power-manager
+sudo apt-get update
+sudo apt install inotify-tools
+sudo nano /usr/local/bin/redirect-brightness.sh
+sudo chmod a+x /usr/local/bin/redirect-brightness.sh
+sudo crontab -e
+docker run redis
+cd Documents/
+ls
+cd rocioj/
+sudo openvpn rocioj.ovpn
+docker images
+docker volume ls
+docker run -v /home/rocioj/volumenes_docker:/usr/local/etc/redis/ -p6380:6379 --name redis -d redis
+cd 
+docker images
+docker volume ls
+docker run -v /home/rocioj/volumenes_docker:/usr/local/etc/redis/ -p6380:6379 --name redis -d redis
+docker rm -f redis
+docker run -v /home/rocioj/volumenes_docker:/usr/local/etc/redis/ -p6380:6379 --name redis -d redis
+docker ps
+docker run --name mongo -p27017:27017 -v /home/rocioj/volumenes_docker:/data/db -d mongo
+docker rm -f mongo
+docker run --name mongo -p27017:27017 -v /home/rocioj/volumenes_docker:/data/db -d mongo
+docker ps
+ls /tmp
+xdg-open /tmp
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+lspci | grep -i vga
+sudo lshw -c video
+sudo apt install intel-media-va-driver
+sudo apt update
+sudo apt upgrade
+sudo apt install xserver-xorg-video-intel
+xrandr
+sudo nano /etc/default/grub
+sudo update-grub
+apt search linux-oem
+sudo apt install linux-oem-**.**
+uname -r
+sudo ubuntu-drivers install
+sudo apt install nvidia-driver-550
+lspci -k
+docker run -v /home/rocioj/volumenes_docker:/usr/local/etc/redis/ -p6380:6379 --name redis -d redis
+docker ps
+docker run
+docker run -v /home/rocioj/volumenes_docker/
+docker run -v /home/rocioj/volumenes_docker/ --name redis -d redis
+docker run -v /home/rocioj/volumenes_docker:/usr/local/etc/redis/ -p6380:6379 --name redis -d redis
+docker rm -f redis
+docker run -v /home/rocioj/volumenes_docker:/usr/local/etc/redis/ -p6380:6379 --name redis -d redis
+docker run --name mongo -p27017:27017 -v /home/rocioj/volumenes_docker:/data/db -d mongo
+docker rm -f mongo
+docker run --name mongo -p27017:27017 -v /home/rocioj/volumenes_docker:/data/db -d mongo
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+docker stop
+docker stop --name mongo -p27017:27017 -v /home/rocioj/volumenes_docker:/data/db -d mongo
+docker stop mongo
+docker ps
+docker stop redis
+docker ps
+xrandr
+sudo xrandr --auto
+sudo apt update
+sudo apt upgrade
+sudo apt install linux-generic-hwe-24.04 xserver-xorg-video-intel
+dmesg | grep i915
+xrandr
+sudo dmesg | grep i915
+lsmod | grep i915
+sudo systemctl restart gdm3
+xrandr
+sudo ubuntu-drivers devices
+ls /etc/X11/xorg.conf
+sudo apt install --reinstall xorg xserver-xorg-video-intel
+sudo reboot
+sudo nano /etc/default/grub
+sudo update-grub
+sudo reboot
+sudo apt install --install-recommends linux-generic-hwe-24.04
+cd FileZilla3/
+ls
+git pull origin milestone/rebranding
+cd src/
+cd app/modules/
+ls
+cd billing/
+cd customers/
+ng g c customers-billing
+cd ..
+ls
+ng g c periods-billing
+ng g c entities-billing
+npm install
+ng serve
+npm install
+ng serve
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+cd src/app/modules/billing/dialogs/
+ng g c new-customer
+sudo apt install xserver-xorg-video-intel
+sudo apt update
+sudo apt install gpg-agent wget
+clear
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+cd 
+uname -r
+sudo add-apt-repository ppa:teejee2008/ppa
+sudo apt update
+sudo apt install mainline
+inxi -G
+sudo apt install inxi
+inxi -G
+uname -r
+apt update
+lspci -k | grep -EA3 'VGA|3D|Display'
+wget -qO - https://repositories.intel.com/gpu/intel-graphics.key |     sudo gpg --yes --dearmor --output /usr/share/keyrings/intel-graphics.gpg
+sudo apt update
+sudo apt install -y gpg-agent wget
+. /etc/os-release
+if [[ ! " jammy " =~ " ${VERSION_CODENAME} " ]]; then     echo "Ubuntu version ${VERSION_CODENAME} not supported"; else     wget -qO - https://repositories.intel.com/gpu/intel-graphics.key |     sudo gpg --yes --dearmor --output /usr/share/keyrings/intel-graphics.gpg;     echo "deb [arch=amd64 signed-by=/usr/share/keyrings/intel-graphics.gpg] https://repositories.intel.com/gpu/ubuntu ${VERSION_CODENAME}/lts/2350 unified" |     sudo tee /etc/apt/sources.list.d/intel-gpu-${VERSION_CODENAME}.list;     sudo apt update; fi
+sudo apt install -y     linux-headers-$(uname -r)     linux-modules-extra-$(uname -r)     flex bison     intel-fw-gpu intel-i915-dkms xpu-smi
+sudo reboot
+ng serve
+sudo apt install -y     intel-opencl-icd intel-level-zero-gpu level-zero     intel-media-va-driver-non-free libmfx1 libmfxgen1 libvpl2     libegl-mesa0 libegl1-mesa libegl1-mesa-dev libgbm1 libgl1-mesa-dev libgl1-mesa-dri     libglapi-mesa libgles2-mesa-dev libglx-mesa0 libigdgmm12 libxatracker2 mesa-va-drivers     mesa-vdpau-drivers mesa-vulkan-drivers va-driver-all vainfo hwinfo clinfo
+ng serve --proxy-config proxy.conf.json --configuration=local
+cd projects/
+cd front-core/
+ls
+npm install
+cd ..
+ng serve
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+sudo openvpn rocioj.ovpn}
+sudo openvpn rocioj.ovpn
+xrandt
+xrandr
+pwd
+whoami
+sudo apt update
+sudo apt upgrade
+sudo ubuntu-drivers install
+setx VAGRANT_EXPERIMENTAL 1
+ng serve
+npm config set '//registry.npmjs.org/:_authToken' 'fb176cfc-49e4-4903-8e09-6cfeb945a1e5'
+ng serve
+npm install -g npm-check-updates
+npm install npm-check-updates
+npm install
+cd ..
+cd frcore/
+npm install
+npm install npm-check-updates
+npm install npm-check-updates --force
+ncu
+ncu -u
+rm -rf node_modules package-lock.json
+npm install
+cd projects/front-core/
+npm install
+cd ..
+git pull origin develop
+cd src/card-form
+npm install
+cd ..
+ng build card-form
+ng serve card-form-app
+ng build card-form
+ng serve card-form-app
+ng build card-form
+ng serve card-form-app
+ng build card-form
+ng serve card-form-app
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+ng serve
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+ng serve
+ng serve --proxy-config proxy.conf.json --configuration=local
+ng serve
+ng serve --proxy-config proxy.conf.json --configuration=local
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+python3 -m pip install -U pygame==2.6.0
+py -m pygame.examples.aliens
+sudo apt install pythonpy
+py -m pygame.examples.aliens
+python3 -m pip install -U pygame --user
+python3 -m pygame.examples.aliens
+ng serve
+ng build search-data-grid
+ng serve search-data-grid-app
+ng build search-data-grid
+ng serve search-data-grid-app
+ng build search-data-grid
+ng serve search-data-grid-app
+docker run -v /home/rocioj/volumenes_docker:/usr/local/etc/redis/ -p6380:6379 --name redis -d redis
+docker run --name mongo -p27017:27017 -v /home/rocioj/volumenes_docker:/data/db -d mongo
+docker ps
+docker rm -f mongo  docker rm -f redis
+docker run --name mongo -p27017:27017 -v /home/rocioj/volumenes_docker:/data/db -d mongo
+docker ps
+docker run -v /home/rocioj/volumenes_docker:/usr/local/etc/redis/ -p6380:6379 --name redis -d redis
+docker ps
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+cd Documents/rocioj/
+openvpn rocioj.ovpn
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+ng serve
+ls /sys/class/drm/
+ls /sys/class/drm/*/status
+cat /sys/class/drm/card0-Unknown-1/status
+cat /sys/class/drm/card0/status
+lspci -k | grep -A 3 -i "VGA"
+cat /var/log/Xorg.0.log | grep -i "connected"
+lspci -k
+xrandr
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+sudo systemctl restart gdm
+sudo mkdir -p /etc/X11/xorg.conf.d
+sudo nano /etc/X11/xorg.conf.d/10-monitor.conf
+inxi -G
+sudo apt update
+sudo apt install intel-media-va-driver-non-free i965-va-driver libva2
+inxi -G
+sudo modprobe i915
+sudo systemctl restart gdm
+inxi -G
+sudo apt update && sudo apt upgrade
+inxi -G
+echo "i915" | sudo tee -a /etc/modules
+sudo nano /etc/default/grub
+sudo nano /etc/modprobe.d/blacklist.conf
+sudo update-grub
+sudo reboot
+inxi -G
+uname -r
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y mainline
+sudo mainline
+wget -qO- https://github.com/bkw777/mainline/raw/master/install.sh | bash
+sudo mainline
+uname -r
+cd Downloads/
+ls
+cd kernel/
+sudo dpkg -i *.deb
+sudo update-grub
+journalctl -b -1
+journalctl -b -2
+journalctl -b -3
+journalctl -b -4
+journalctl -b -5
+sudo mkdir -p /var/log/journal
+sudo systemctl restart systemd-journald
+journalctl -b -1
+clear
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+dpkg --list | grep linux-image
+sudo apt remove --purge linux-image-unsigned-6.11.0-061100-generic
+dpkg --list | grep linux-image
+cd 
+sudo dpkg --purge linux-headers-6.11.0-061100-generic
+sudo dpkg --purge linux-image-unsigned-6.11.0-061100-generic
+sudo rm -rf /lib/modules/6.11.0-061100-generic
+sudo dpkg --configure -a
+sudo apt --fix-broken install
+sudo update-grub
+dpkg --list | grep linux-image
+sudo update-grub
+echo "options i915 force_probe=7d55" | sudo tee -a /etc/modprobe.d/i915.conf
+lspci -nn | grep VGA
+echo "options i915 force_probe=9a49" | sudo tee -a /etc/modprobe.d/i915.conf
+dpkg --list | grep linux-image
+inxi -G
+xrandr
+xrandr --output None-1 --auto
+xrandr --output HDMI-1 --mode 1920x1080 --rate 60
+cat /var/log/Xorg.0.log | grep '(EE)'
+xrandr
+cvt 1920 1080
+xrandr --newmode "1920x1080_60.00" 173.00 1920 2048 2248 2576 1080 1083 1088 1120 -hsync +vsync
+xrandr --addmode None-1 "1920x1080_60.00"
+xrandr --output None-1 --mode "1920x1080_60.00"
+cvt 1680 1050
+# 1680x1050 59.95 Hz (CVT) hsync: 65.80 kHz; pclk: 60.00 MHz
+Modeline "1680x1050_60.00"  60.00  1680 1744 1792 1904  1050 1053 1058 1089 -hsync +vsync
+cvt 1680 1050
+xrandr --newmode "1680x1050_60.00"  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync
+xrandr --addmode None-1 1680x1050_60.00
+xrandr --output None-1 --mode 1680x1050_60.00
+xrandr
+cvt 1680 1050 50
+cat /var/log/Xorg.0.log | grep -i "error"
+xrandr --delmode None-1 1680x1050_60.00
+cvt 1680 1050 60
+xrandr --newmode "1680x1050_60.00"  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync
+xrandr --addmode None-1 1680x1050_60.00
+xrandr --output None-1 --mode 1680x1050_60.00
+ng serve
+rm -rf node_modules package-lock.json
+npm install
+npm install --legacy-peer-deps
+ng add @angular-eslint/schematics
+npm uninstall tslint codelyzer
+npm uninstall protractor
+npm uninstall protractor --legacy-peer-deps
+npm install karma@6.4.4 --save-dev
+ng serve
+npm audit
+npm audit fix --force
+npm install @angular/compiler-cli@14.3.0 typescript@4.8.4 --save-dev
+npm install tslint@6.1.3 codelyzer@6.0.0 --save-dev
+ng add @angular-eslint/schematics
+ng serve
+clear
+ng serve
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+ssh-keygen
+cat $HOME/.ssh/id_ed25519
+cat $HOME/.ssh/id_ed25519.pub
+cd Documents/UTN/AySO/
+mkdir parcial1
+cd parcial1/
+git clone git@github.com:rociojuarez/AySO-Parcial1-RocioJuarez.git
+touch puntoa.sh
+touch puntob.sh
+touch puntoc.sh
+ls
+cd AySO-Parcial1-RocioJuarez/
+touch puntod.sh
+touch puntoe.sh
+touch puntof.sh
+chmod +x puntoa.sh
+nano puntoa.sh
+./puntoa.sh
+ls
+nano puntoa.sh
+./puntoa.sh
+ls
+tree
+chmod +x puntob.sh
+chmod +x puntoc.sh
+chmod +x puntod.sh
+chmod +x puntoe.sh
+chmod +x puntof.sh
+nano puntob.sh
+chmod +x puntob.sh
+sudo ./puntob.sh
+nano puntob.sh
+sudo ./puntob.sh
+nano puntob.sh
+sudo ./puntob.sh
+nano puntob.sh
+lsblk
+sudo umount /dev/sda1
+ng serve
+npm install
+npm audit --force
+npm audit fix --force
+npm install
+ng serve
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn}
+sudo openvpn rocioj.ovpn
+sudo fdisk -l 
+cd Documents/UTN/
+ls
+cd AySO/ 
+ls
+cd parcial1/
+ls
+cd AySO-Parcial1-RocioJuarez/
+ls
+cat puntob.sh
+nano puntob.sh 
+sudo fdisk -l
+nano puntob.sh 
+./puntob.sh
+nano puntob.sh 
+./puntob.sh
+nano puntob.sh 
+./puntob.sh
+nano puntob.sh 
+./puntob.sh
+nano puntob.sh 
+./puntob.sh
+nano puntob.sh 
+mount | grep /mnt
+nano puntob.sh 
+./puntob.sh
+sudo mount /dev/sda4 /mnt/part4
+free -h
+sudo mkfs.ext4 /dev/sda4
+nano puntob.sh 
+for part in /dev/sda*; do     if mount | grep "$part" > /dev/null; then         echo "Desmontando $part...";         sudo umount "$part";     fi; done
+for part in /dev/sda*; do     echo "Formateando $part...";     sudo mkfs.ext4 "$part"; done
+./puntob.sh
+nano puntob.sh 
+clear
+./puntob.sh
+nano puntoc.sh
+nano puntob.sh
+nano puntoc.sh
+./puntoc.sh
+nano puntoc.sh
+./puntoc.sh
+ls
+tree
+sudo userdel -r developer1
+sudo userdel -r tester1
+sudo userdel -r devops1
+sudo userdel -r devops2
+sudo groupdel grupodevops
+sudo groupdel grupodevelopers
+sudo groupdel grupotesters
+nano puntoc.sh
+./puntoc.sh
+ls
+cd Examenes-UTN/
+ls
+sudo userdel -r developer1
+sudo userdel -r tester1
+sudo userdel -r devops1
+sudo userdel -r devops2
+sudo groupdel grupodevops
+sudo groupdel grupodevelopers
+sudo groupdel grupotesters
+cd ..
+nano puntoc.sh
+./puntoc.sh
+cat validar.txt 
+sudo userdel -r developer1
+sudo userdel -r tester1
+sudo userdel -r devops1
+sudo userdel -r devops2
+sudo groupdel grupodevops
+sudo groupdel grupodevelopers
+sudo groupdel grupotesters
+nano puntoc.sh
+./puntoc.sh
+cat validar.txt 
+sudo userdel -r developer1
+sudo userdel -r tester1
+sudo userdel -r devops1
+sudo userdel -r devops2
+sudo groupdel grupodevops
+sudo groupdel grupodevelopers
+sudo groupdel grupotesters
+nano puntoc.sh 
+./puntoc.sh 
+cat validar.txt 
+nano puntoc.sh 
+whoami
+nano puntod.sh
+./puntod.sh
+/proc/meminfo
+sudo /proc/meminfo
+dmidecode -t chassis
+sudo dmidecode -t chassis
+sudo /proc/meminfo
+grep /proc/meminfo
+nano puntoe.sh
+./puntoe.sh
+ls
+cat Filtro_Basico.txt
+nano puntof.sh
+./puntof.sh
+cat Filtro_Avanzado.txt
+ls
+nano README.md
+git status
+git add .
+git commit -m "Se agregan los scripts de cada punto"
+git push
+cd Documents/UTN/AySO/
+ls
+cd parcial1/
+ls
+cd AySO-Parcial1-RocioJuarez/
+ls
+nano puntob.sh
+sudo userdel -r developer1
+sudo userdel -r tester1
+sudo userdel -r devops1
+sudo userdel -r devops2
+sudo groupdel grupodevops
+sudo groupdel grupodevelopers
+sudo groupdel grupotesters
+cd Documents/UTN/AySO/
+ls
+cd parcial1/
+ls
+cd AySO-Parcial1-RocioJuarez/
+ls
+./puntoa.sh 
+ls
+tree
+./puntob.sh
+./puntoc.sh 
+cat validar.txt
+./puntod.sh 
+./puntoe.sh 
+cat Filtro_Basico.txt 
+./puntof.sh 
+cat Filtro_Avanzado.txt 
+sudo userdel -r developer1
+sudo userdel -r tester1
+sudo userdel -r devops1
+sudo userdel -r devops2
+sudo groupdel grupodevops
+sudo groupdel grupodevelopers
+sudo groupdel grupotesters
+git status
+ng serve
+cd Documents/rocioj/
+sudo openvpn rocioj.ovpn
+clear
+cd ..
+cd UTN
+cd AySO/
+ls
+cd parcial1/
+ls
+cd AySo
+AySO-Parcial1-RocioJuarez/
+cd AySO-Parcial1-RocioJuarez/
+ls
+./puntoa.sh 
+ls
+nano puntob.sh
+./puntoc.sh
+./puntod.sh 
+./puntoe.sh 
+./puntof.sh 
+ls
+nano README.md 
+git status
+git add .
+git commit -m "Se agregan los archivos generados por cada punto"
+cat validar.txt 
+git push
+mkdir parcial1
+ls
+cd parcial1/
+ls
+./puntoa.sh 
+ls
+tree
+nano puntob.sh 
+./puntob.sh
+lsblk
+nano puntob.sh
+./puntob.sh
+nano puntoc.sh 
+sudo userdel -r developer1
+sudo userdel -r tester1
+sudo userdel -r devops1
+sudo userdel -r devops2
+sudo groupdel grupodevops
+sudo groupdel grupodevelopers
+sudo groupdel grupotesters
+./puntoc.sh
+cat validar.txt 
+nano puntod.sh 
+./puntod.sh
+./puntoe.sh 
+ls
+cat Filtro_Basico.txt
+nano puntof.sh 
+grep whoami /etc/passwd
+grep "${whoami}" /etc/passwd
+grep "$(whoami)" /etc/passwd | cut -d: -f1
+./puntof.sh 
+cat Filtro_Avanzado.txt 
+history -a
